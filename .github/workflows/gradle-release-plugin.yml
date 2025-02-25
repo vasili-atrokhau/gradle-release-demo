@@ -32,4 +32,4 @@ jobs:
 
       # Run release task
       - name: Release with Gradle Release Plugin
-        run: ./gradlew release -Prelease.useAutomaticVersion=true
+        run: ./gradlew release
