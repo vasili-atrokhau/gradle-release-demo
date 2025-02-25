@@ -31,8 +31,8 @@ jobs:
       # Setup git config of the GitHub Actions Bot
       - name: Setup git config
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "vasili.atrokhau@gmail.com"
 
       # Run release task
       - name: Release with Gradle Release Plugin
