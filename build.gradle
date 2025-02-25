@@ -50,7 +50,7 @@ release {
 	tagTemplate = '${version}'
 	versionPropertyFile = 'gradle.properties'
 	snapshotSuffix = '-SNAPSHOT'
-	buildTasks = []
+	buildTasks = ["build"]
 
 	git {
 		requireBranch.set('main')
