@@ -1,5 +1,5 @@
 package com.atrokhau;
 
-public class Test {
+public class Test2 {
 
 }
